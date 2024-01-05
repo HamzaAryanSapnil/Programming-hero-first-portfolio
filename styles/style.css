@@ -1,21 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Open+Sans:wght@400;700;800&family=Rubik+Doodle+Triangles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header nav{
-    display: flex;
-    justify-content: space-around;
+/* nav related styles */
+header nav {
+  display: flex;
+  justify-content: space-around;
 }
-header nav > h1 > span{
-    color: #FD6E0A;
+header nav > h1 {
+    font-family: 'Rubik Doodle Triangles', system-ui;
+}
+header nav > h1 > span {
+  color: #fd6e0a;
 }
 
-header nav > ul{
-    display: flex;
-    list-style: none;
+header nav > ul {
+  display: flex;
+  list-style: none;
 }
 
-header nav  ul li{
-    margin: 0 10px;
+header nav ul li {
+  margin: 0 10px;
 }
