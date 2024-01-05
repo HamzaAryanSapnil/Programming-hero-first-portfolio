@@ -1,14 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Open+Sans:wght@800&family=Rubik+Doodle+Triangles&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Open+Sans:ital,wght@0,800;1,400&family=Rubik+Doodle+Triangles&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .primary-text {
     color: #fd6e0a;
+}
+.primary-button{
+    border-radius: 5px;
+background: #FD6E0A;
 }
 
 /* nav related styles */
@@ -29,5 +36,9 @@ header nav > ul {
 }
 
 header nav ul li {
-  margin: 0 10px;
+  margin: 18px 0 18px 51px ;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #474747;
 }
