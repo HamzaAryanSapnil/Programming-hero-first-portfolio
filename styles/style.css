@@ -86,7 +86,7 @@ header related styles
 }
 
 .banner-content {
-  width: 600px;
+  max-width: 600px;
 }
 
 .banner-greetings {
@@ -149,4 +149,6 @@ about section styles
 .about {
   border-radius: 10px;
   background: #fff8f3;
+  padding: 130px;
+  margin: ;
 }
