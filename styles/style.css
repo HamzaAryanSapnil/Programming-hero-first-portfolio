@@ -56,6 +56,7 @@ header nav ul li a {
   background: #FFF8F3;
 }
 
-.banner{
+header .banner{
   padding: 30px 30px 30px 230px;
+  display: flex;
 }
