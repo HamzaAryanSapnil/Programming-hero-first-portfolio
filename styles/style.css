@@ -58,8 +58,9 @@ header nav ul li a {
   background: #FFF8F3;
 }
 
-.banner{
-  padding: 30px 30px 30px 150px;
+.banner {
+  margin: 230px 0px 0px 230px;
+  padding: 0 30px 210px 65px;
   display: flex;
 }
 .banner-greetings{
