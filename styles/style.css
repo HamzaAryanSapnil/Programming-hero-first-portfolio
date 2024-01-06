@@ -1,7 +1,16 @@
+/* 
+common shared styles
+*/
 *{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
+
+.text-primary{
+  color: #FD6E0A;
+  font-weight: 800;
+}
+
 /* 
 nav related styles
 */
