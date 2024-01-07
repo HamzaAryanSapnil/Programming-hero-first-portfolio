@@ -187,8 +187,8 @@ about section styles
 /* 
 what i do section related styles
 */
-.what-i-do {
-}
+/* .what-i-do {
+} */
 #what-i-do-description {
   padding: 30px 120px;
 }
@@ -225,8 +225,8 @@ skills related styles in what i do section
 /* 
 resume related styles
 */
-.summary-resume {
-}
+/* .summary-resume {
+} */
 .resume-container{
   display: flex ;
   gap: 60px;
@@ -275,3 +275,16 @@ resume download button related styles
 }
 
 /* footer section related styles */
+footer{
+  background: #FFF8F3;
+  display: flex;
+  padding: 130px 230px;
+  margin-top: 100px;
+}
+
+.footer-column-description{
+  color: var(--Dark-02, #474747);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
