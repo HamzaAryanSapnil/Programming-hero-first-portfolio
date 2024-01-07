@@ -227,6 +227,10 @@ resume related styles
 */
 .summary-resume {
 }
+.resume-container{
+  display: flex ;
+  gap: 60px;
+}
 /* resume column related styles */
 .resume-title {
   color: var(--Dark-02, #474747);
