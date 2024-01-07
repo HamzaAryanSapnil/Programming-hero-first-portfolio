@@ -145,6 +145,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+}
 /* 
 about section styles
 */
@@ -184,6 +187,8 @@ about section styles
 /* 
 what i do related styles
 */
+.what-i-do{
+}
 #what-i-do-description {
   padding: 30px 120px;
 }
@@ -215,4 +220,10 @@ skills related styles in what i do section
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+/* 
+resume related styles
+*/
+.summary-resume{
 }
