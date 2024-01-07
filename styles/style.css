@@ -185,7 +185,7 @@ about section styles
 }
 
 /* 
-what i do related styles
+what i do section related styles
 */
 .what-i-do {
 }
@@ -264,3 +264,13 @@ resume related styles
   line-height: 28px; /* 175% */
   margin-top: 0;
 }
+
+/* 
+resume download button related styles
+*/
+
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
