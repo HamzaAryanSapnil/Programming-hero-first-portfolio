@@ -73,9 +73,9 @@ header related styles
 
 .header {
   background: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
@@ -114,25 +114,35 @@ header related styles
 
 .banner-btn {
   text-align: center;
-  padding: 20px 20px 20px 50px;
-}
-
-.banner-btn1 {
-  margin-top: 0;
   margin-right: 30px;
 }
-.banner-btn2 {
+.banner-btn-contact{
+  background: #FFF8F3;
+  color: #FD6E0A;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+padding: 15px 30px;
+}
+
+/* .banner-btn1 {
+  margin-top: 0;
+  margin-right: 30px;
+} */
+/* .banner-btn2 {
   margin-top: 0;
   margin-left: 0;
   background: transparent;
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
-}
+} */
 
-.banner-icon {
+/* .banner-icon {
   width: 24px;
   height: 24px;
-}
+} */
 
 .banner .banner-image {
   width: 500px;
